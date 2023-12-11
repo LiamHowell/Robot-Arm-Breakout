@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|48260000|59385000|3f2120b0-dbe9-4690-ae52-90083e3a0047|706250c3-f1b5-4018-a18f-16a019e93bb9|B.Cu",
+        "starved_thermal|48260000|79705000|96e8dc82-b6b3-43f9-a016-7c22d8948e03|791a14d2-82b6-4543-b234-4cd5994d106c|F.Cu",
+        "starved_thermal|58420000|84785000|3f2120b0-dbe9-4690-ae52-90083e3a0047|2723b0ca-4a30-46d8-983e-492e27567eae|B.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -80,7 +84,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
